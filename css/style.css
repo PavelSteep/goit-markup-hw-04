@@ -68,6 +68,8 @@ img {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+
 }
 
 .nav {
@@ -177,6 +179,7 @@ main {
 
 .order-button {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
@@ -386,6 +389,13 @@ li.team-member {
   text-align: left;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -412,4 +422,5 @@ li.team-member {
   margin: 0;
   text-transform: lowercase;
   margin-top: 16px;
+  text-align: left;
 }
