@@ -497,14 +497,19 @@ main {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-link {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -516,7 +521,7 @@ main {
 }
 
 .footer-logo-text {
-  color: #f4f4fd;
+  color: #31d0aa;
 }
 
 .footer-paragraph {
@@ -529,6 +534,33 @@ main {
   text-transform: lowercase;
   margin-top: 16px;
   text-align: left;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-icons-link {
