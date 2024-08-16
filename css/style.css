@@ -580,6 +580,6 @@ main {
 }
 
 .footer-icon {
-  fill: transparent;
-  stroke: #fff;
+  fill: #f4f4fd;
+  stroke: none;
 }
