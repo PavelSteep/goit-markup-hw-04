@@ -199,6 +199,7 @@ main {
   /* padding: 188px 0 188px; */
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 
 .hero-title{
@@ -289,6 +290,17 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 /**===========================================*/
