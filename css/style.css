@@ -184,13 +184,16 @@ main {
 /**=================HERO-SECTION========== */
 
 .hero-section {
-  width: 100%;
+  max-width: 1440px;
   height: auto;
   background-image:linear-gradient(
-    rgba(46, 47, 66, 0.7) 0%,
-    rgba(46, 47, 66, 0.7) 100%
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
     ), 
     url(../images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #2E2F42;
   text-align: center;
   /* padding: 188px 0 188px; */
@@ -226,6 +229,7 @@ main {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
