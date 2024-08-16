@@ -1,4 +1,7 @@
-/* general */
+/**========================================*/
+
+/**=================GENEREL=============== */
+
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +61,10 @@ img {
   display: block;
 }
 
-/* header */
+/**========================================*/
+
+/**=================HEADER=============== */
+
 .header {
   max-width: 100%;
   padding: 24px 141px;
@@ -150,18 +156,33 @@ img {
     color: #404bbf;
 }
 
-/* main */
+/**=======================================*/
+
+/**=================MAIN================= */
+
 main {
-  padding: 188px 0 188px;
+  /* padding: 188px 0 188px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-/* hero-section */
+/**========================================*/
+
+/**=================HERO-SECTION========== */
+
 .hero-section {
   width: 100%;
   height: auto;
+  background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7) 0%,
+    rgba(46, 47, 66, 0.7) 100%
+    ), 
+    url(../images/hero-image.jpg);
   background-color: #2E2F42;
   text-align: center;
-  padding: 188px 0 188px;
+  /* padding: 188px 0 188px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hero-title{
@@ -199,11 +220,16 @@ main {
     background-color: #404bbf;
 }
 
-/* features-section */
+/**===================================================*/
+
+/**=================FEATURES-SECTION================= */
+
 .features-section {
   max-width: 100%;
   background-color:#FFFFFF;
-  padding: 120px 0 120px;
+  /* padding: 120px 0 120px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .visually-hidden {
@@ -248,11 +274,16 @@ main {
   color: #434455;
 }
 
-/* team-section */
+/**===========================================*/
+
+/**================TEAM-SECTION============== */
+
 .team-section {
   width: 100%;
   background-color: #F4F4FD;
-  padding: 120px 0 120px;
+  /* padding: 120px 0 120px; */
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 h2.team-title {
@@ -312,11 +343,16 @@ li.team-member {
   transition: color 0.3s ease;
 }
 
-/* portfolio */
+/**=========================================*/
+
+/**================PORTFOLIO=============== */
+
 .portfolio-section {
   max-width: 100%;
   background-color: #FFFFFF;
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .portfolio-container {
@@ -382,9 +418,14 @@ li.team-member {
   text-align: center;
 }
 
-/* footer */
+/**=======================================*/
+
+/**=================FOOTER================= */
+
 .footer {
-  padding: 100px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* padding: 100px 0; */
   background-color: #2e2f42;
   text-align: left;
 }
@@ -423,4 +464,26 @@ li.team-member {
   text-transform: lowercase;
   margin-top: 16px;
   text-align: left;
+}
+
+.footer-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 500ms;
+  transition-delay: 1000ms;
+}
+
+.footer-icons-link:hover {
+  background-color: #1edaeb;
+}
+
+.footer-icon {
+  fill: transparent;
+  stroke: #fff;
 }
