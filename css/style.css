@@ -511,7 +511,7 @@ svg {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-description {
+.portfolio-item:hover .portfolio-cover-text {
   transform: translateY(0%);
 }
 
@@ -520,20 +520,21 @@ svg {
 /**=================FOOTER================= */
 
 .footer {
-  padding-top: 60px 0;
+  padding: 100px 0;
   background-color: #2e2f42;
   text-align: left;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: baseline;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .footer-content {
+  text-align: left;
   margin-right: 120px;
 }
 
@@ -577,6 +578,7 @@ svg {
   letter-spacing: 0.02em;
   color:#ffffff;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .footer-list {
